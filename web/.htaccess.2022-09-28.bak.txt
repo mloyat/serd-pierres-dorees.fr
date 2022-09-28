@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://www.serd-pierres-dorees.fr/$1 [R,L]
+
+RewriteCond %{HTTP_HOST} ^serd-pierres-dorees\.fr [NC]
+RewriteRule ^(.*)$ https://www.serd-pierres-dorees.fr/$1 [R,L]
