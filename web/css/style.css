@@ -554,12 +554,17 @@ main article header{
 .carte {
   background-color: #e4f0ec;
   color:black;
-  max-width:42%;
-
   padding: 1.5em;;
   border: 3px solid rgba(0,0,0,.4);
   border-width: 0 3px 3px 0;
   margin: 1em 0;
+}
+
+
+@media (min-width: 908px) {
+  .carte{
+    max-width:42%;
+  }
 }
 
 .carte h4{

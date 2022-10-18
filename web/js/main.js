@@ -13,4 +13,6 @@
     });
   }
   filtre.addEventListener("change", onChange);
+  // Appel au chargement.
+  onChange();
 });
