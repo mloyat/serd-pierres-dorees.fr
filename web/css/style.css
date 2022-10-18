@@ -541,3 +541,45 @@ main article {
 main article header{
   font-weight: 700;
 }
+
+
+
+.cartes{
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content:space-between;
+
+}
+.carte {
+  background-color: #d9f0e9;
+  color:black;
+  max-width:42%;
+
+  padding: 1.5em;;
+  border: 3px solid rgba(0,0,0,.4);
+  border-width: 0 3px 3px 0;
+  margin: 1em 0;
+}
+
+.carte h4{
+  color:#004436;
+  font-size: 1.2em;
+}
+
+.carte .date{
+  font-weight:bold;
+  font-size: .9em;
+}
+.carte .date:before{
+  content:"› ";
+  content:"🕒 ";
+}
+.carte .lieu{
+  font-style: italic;
+  font-size: .9em;
+}
+.carte .lieu:before{
+  content:"📍 ";
+  font-style: normal;
+}
