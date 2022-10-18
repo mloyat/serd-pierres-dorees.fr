@@ -588,3 +588,6 @@ main article header{
   content:"📍 ";
   font-style: normal;
 }
+.cartes .filtres span{
+  white-space: nowrap;
+}
