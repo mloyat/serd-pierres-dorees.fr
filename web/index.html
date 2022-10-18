@@ -41,8 +41,31 @@
           <div class="container">
             <h2>Le programme</h2>
             <p>Le programme est en cours d'élaboration et s'enrichit de semaine en semaine ! Voici quelques événements déjà prévus, n'hésitez pas à nous contacter si vous souhaitez nous en proposer d'autres ou vous joindre à l'organisation de ceux déjà proposés.</p>
-            <h3>En semaine, du 19 au 25 novembre</h3>
+            <h3>En semaine, du 15 au 25 novembre</h3>
             <div class="cartes">
+
+              <div class="filtres">
+                Filtrer par date
+                <select id="filtre-date">
+                  <option value="all">toutes les dates</option>
+                  <option value="2022-11-15">15 novembre</option>
+                  <option value="2022-11-19">19 novembre</option>
+                  <option value="2022-11-22">22 novembre</option>
+                  <option value="2022-11-23">23 novembre</option>
+                </select>
+                - Filtrer par commune
+                <select id="filtre-commune">
+                  <option value="all">toutes les communes</option>
+                  <option value="bagnols">Bagnols</option>
+                  <option value="chamelet">Chamelet</option>
+                  <option value="chessy">Chessy</option>
+                  <option value="legny">Légny</option>
+                  <option value="morance">Morancé</option>
+                  <option value="pommiers">Pommiers</option>
+                  <option value="theize">Theizé</option>
+                  <option value="valdoingt">Val d'Oingt</option>
+                </select>
+              </div>
 
               <article class="carte" data-date="2022-11-15" data-commune="pommiers">
                 <h4>Conférence "Comment redonner vie aux ordinateurs&nbsp;?”</h4>
@@ -88,14 +111,14 @@
               </article>
 
 
-              <article class="carte" data-date="2022-11-22" data-commune="Pommiers">
+              <article class="carte" data-date="2022-11-22" data-commune="pommiers">
                 <h4>Atelier de remise en forme de vos ordinateurs</h4>
                 <div class="date">mardi 22 novembre, 19h</div>
                 <div class="lieu">Maison des Associations de Pommiers</div>
                 <p>Organisé par abc21 et la Commission Développement Durable et Implication Citoyenne de Pommiers (inscription préalable lors de la conférence le 15/09).</p>
               </article>
 
-              <article class="carte" data-date="2022-11-23" data-commune="thize">
+              <article class="carte" data-date="2022-11-23" data-commune="theize">
                 <h4>Atelier Réparation de bijoux</h4>
                 <div class="date">mercredi 23 novembre, 15h-17h</div>
                 <div class="lieu">Salle Cherpin, Theizé</div>
@@ -189,5 +212,6 @@
         </div>
       </footer>
     </div>
+    <script src="js/main.js?ver=1"></script>
   </body>
 </html>
