@@ -2,7 +2,7 @@
 /**
  * Les filtres du programme.
  */
-['date','commune'].forEach((filterName)=>{
+['date','commune','salle','type'].forEach((filterName)=>{
   const filtre = document.getElementById(`filtre-${filterName}`);
   const els = document.querySelectorAll(`.carte[data-${filterName}]`);
   const onChange = ()=>{

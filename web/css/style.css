@@ -558,12 +558,13 @@ main article header{
   border: 3px solid rgba(0,0,0,.4);
   border-width: 0 3px 3px 0;
   margin: 1em 0;
+  width:100%;
 }
 
 
 @media (min-width: 908px) {
   .carte{
-    max-width:42%;
+    width:42%;
   }
 }
 
@@ -590,4 +591,18 @@ main article header{
 }
 .cartes .filtres span{
   white-space: nowrap;
+}
+
+#programme .cartes a{
+  color:#115945;
+  text-decoration: none;
+  padding-bottom: .2rem;
+  border:1px solid rgba(0,0,0,0);
+  border-bottom: 1px dashed #115945;
+}
+
+#programme .cartes a:focus, #programme .cartes a:hover{
+  border-bottom: 1px dashed #115945;
+  background: #115945;
+  color:#bee6db;
 }

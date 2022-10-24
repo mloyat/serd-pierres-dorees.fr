@@ -87,8 +87,8 @@
                 <div class="lieu">Salle des fêtes de Morancé</div>
                 <p>
                   <ul>
-                    <li>Fresque du Climat Junior : 10/14 ans (9h durée 2h)</li>
-                    <li>Ateliers 0 déchets : création de produits solides pour la maison et cosmétiques (adultes et plus de 12 ans - participation libre)</li>
+                    <li>Fresque du Climat Junior&nbsp;: 10/14 ans (9h durée 2h)</li>
+                    <li>Ateliers 0 déchets&nbsp;: création de produits solides pour la maison et cosmétiques (adultes et plus de 12 ans - participation libre)</li>
                     <li>Présentation du SEL des Vignes (Système d’Echanges Local)</li>
                     <li>Trocs/Dons vêtements adultes-enfants</li>
                   </ul>
@@ -100,7 +100,7 @@
                 <h4>Expo Déchets d'œuvres</h4>
                 <div class="date">samedi 19 novembre, 9h-12h30</div>
                 <div class="lieu"><abbr title="Maison Familiale et Rurale">MFR</abbr> de Chessy les Mines</div>
-                <p>Action menée par la municipalité de Chessy, en partenariat avec les 2 écoles et la MFR, les habitants l’Association Mines de Liens&nbsp;: expo, atelier composteur, atelier déco de Noël et emballages (apportez vos machines à coudre) et actions de sensibilisation par Sytraival.</p>
+                <p>Action menée par la municipalité de Chessy, en partenariat avec les 2 écoles et la MFR, les habitants et l’Association Mines de Liens.</p>
               </article>
 
               <article class="carte" data-date="2022-11-19" data-commune="bagnols">
@@ -160,39 +160,238 @@
             <p>La journée de clôture de notre <abbr title="Semaine Européenne de la Réduction des Déchets">SERD</abbr> aura lieu toute la journée le 26 novembre au <a href="https://www.abcsalles.com/lieu/domaine-des-communes">Domaine des Communes</a> à Graves-sur-Anse. </p>
             <p>Ouverte à tous et gratuite, c'est l'occasion pour venir en famille découvrir les actions et acteurs du territoire engagés dans la rélfexion sur la réduction des déchets.</p>
             <p>Une restauration sera disponible par un <span lang="en">Food Truck</span></p>
-            <h4>Ateliers</h4>
-            <ul>
-              <li>Atelier anti-gaspi</li>
-              <li>Fabrication de composteurs</li>
-              <li>Furoshiki et autres emballages réutilisables</li>
-              <li>Répare Café</li>
-              <li>Faire revivre son ordinateur</li>
-            </ul>
-            <h4>Partage / découverte</h4>
-            <ul>
-              <li>Bourse / troc Noël (jeu, déco...)</li>
-              <li>Promotion de l'autocollant STOP-PUB</li>
-              <li>La biodiversité du compost</li>
-              <li>Les bonnes pratiques du compostage</li>
-              <li><abbr title="Retour d'expériences">REX</abbr> des bonnes pratiques sur nos communes (Salle des Fêtes, plateformes de compostage...)</li>
-            </ul>
-            <h4>Sensibilisation</h4>
-            <ul>
-              <li>Mieux comprendre le recyclage</li>
-              <li>Découvrir les composteurs collectifs</li>
-            </ul>
-            <h4>Expositions</h4>
-            <ul>
-              <li>Exposition Déchets d'Œuvres</li>
-              <li>Composteurs communaux</li>
-            </ul>
-            <h4>Conférences / Animations</h4>
-            <ul>
-              <li>Bien comprendre le compostage</li>
-              <li>Que deviennent les déchets du numérique</li>
-              <li>Table ronde autour de la pesée des déchets de cantine qui aura eu lieu dans les écoles durant la semaine</li>
-              <li>Les moutons tondeuse à venir voir en famille</li>
-            </ul>
+
+            <div class="cartes">
+
+              <div class="filtres">
+                <span>Filtrer par espace
+                <select id="filtre-salle">
+                  <option value="all">tous les espaces</option>
+                  <option value="exterieur">en extérieur</option>
+                  <option value="accueil">accueil</option>
+                  <option value="caveau">caveau</option>
+                  <option value="principale">grande salle</option>
+                </select></span>
+                - <span>Filtrer par type d'activité
+                <select id="filtre-type">
+                  <option value="all">tous les types</option>
+                  <option value="accueil">temps d'accueil / convivialité</option>
+                  <option value="performance">représentation / performance</option>
+                  <option value="atelier">atelier</option>
+                  <option value="animaux">animaux</option>
+                  <option value="stand">stand / exposition</option>
+                  <option value="conference">conférence / table ronde</option>
+                </select></span>
+              </div>
+
+              <article class="carte" data-salle="accueil" data-type="performance">
+                <h4>Liz la clown</h4>
+                <div class="date">9h</div>
+                <div class="lieu">Accueil</div>
+              </article>
+
+              <article class="carte" data-salle="principale" data-type="accueil">
+                <h4>Temps d'accueil et mot d'introduction</h4>
+                <div class="date">9h-9h30</div>
+                <div class="lieu">Salle principale</div>
+              </article>
+
+              <article class="carte" data-salle="exterieur" data-type="atelier">
+                <h4>Fabrication de composteur</h4>
+                <div class="date">9h-11h</div>
+                <div class="lieu">Extérieur</div>
+                <p>L'association abc21 de Pommiers vous accompagne pour construire votre propre composteur en bois local (fourni). Apportez votre visseuse bien chargée et laissez-vous guider...</p>
+                <p>Sur réservation auprès d'abc21 (<a href="mailto:abc21.pommiers@gmail.com&subject=Réservation composteur SERD">abc21.pommiers@gmail.com</a>), places limitées.</p>
+                <p>Prix du composteur 40/60€, subvention possible par la <abbr title="Communauté de Communes Beaujolais Pierres Dorées">CCBPD</abbr></p>
+              </article>
+
+              <article class="carte" data-salle="exterieur" data-type="animaux">
+                <h4>Les moutons de Laurent Volle</h4>
+                <div class="date">9h-18h</div>
+                <div class="lieu">Extérieur</div>
+                <p>Ou comment entretenir nos espaces verts de façon plus écologique&nbsp;?</p>
+              </article>
+
+              <article class="carte" data-salle="exterieur" data-type="animaux">
+                <h4>Poulailler collectif de Lachassagne</h4>
+                <div class="date">9h-18h</div>
+                <div class="lieu">Extérieur</div>
+                <p>Trucs et info avant de créer son poulailler, tout connaître sur les poules...</p>
+              </article>
+
+              <article class="carte" data-salle="caveau" data-type="atelier">
+                <h4>Espace répar'acteurs</h4>
+                <div class="date">9h-12h</div>
+                <div class="lieu">Caveau</div>
+                <p>Les répare cafés d'abc21 et de Mines de Liens se regroupent pour vous aider à comprendre les pannes et réparer vos objets du quotidien.</p>
+              </article>
+
+              <article class="carte" data-salle="caveau" data-type="stand">
+                <h4>Panorama des Transitions</h4>
+                <div class="lieu">Caveau</div>
+                <p>Le Panorama des Transitions du Beaujolais des Pierres Dorées recense les acteurs des transitions sur notre territoire et les présente sous forme de cartographie interactive. Venez découvrir cet outil en cours de création et pourquoi pas répondre à l'interview pour y apparaître...</p>
+              </article>
+
+              <article class="carte" data-salle="caveau" data-type="stand">
+                <h4>Les déchets expliqués</h4>
+                <div class="lieu">Caveau</div>
+                <p>Affichage des supports pédagogiques du <abbr title="Syndicat mixte d'élimination, de traitement et de valorisation des déchets Beaujolais-Dombes">Sytraival</abbr>.</p>
+              </article>
+
+              <article class="carte" data-salle="caveau" data-type="stand">
+                <h4>La consigne des bouteilles</h4>
+                <div class="lieu">Caveau</div>
+                <p>L'entreprise Rebooteille présente son fonctionnement et les enjeux de la consigne du verre.</p>
+              </article>
+
+              <article class="carte" data-salle="exterieur" data-type="stand">
+                <h4>Démonstration du composteur collectif</h4>
+                <div class="lieu">Extérieur</div>
+                <p>Présentation du composteur collectif qui peut être installé dans nos communes.</p>
+              </article>
+
+              <article class="carte" data-salle="caveau" data-type="stand">
+                <h4>Exposition Déchets d'Œuvres</h4>
+                <div class="lieu">Caveau</div>
+                <p>Action menée par la municipalité de Chessy, en partenariat avec les 2 écoles et la MFR, les habitants et l’Association Mines de Liens.</p>
+              </article>
+
+              <article class="carte" data-salle="caveau" data-type="atelier">
+                <h4>Atelier "Une seconde vie pour vos ordis"</h4>
+                <div class="date">9h-12h</div>
+                <div class="lieu">Caveau</div>
+                <p>La Cabane à Soi et Demain c'est Ici et Maintenant vous proposent de regarder vos vieux ordinateurs pour voir s'il ne serait pas possible de leur rendre leur première jeunesse. Bien (trop) souvent, nous changeons d'ordinateur parce qu'il «&nbsp;rame&nbsp;», mais ce n'est pas une fatalité&nbsp;! Il suffit parfois d'une ou deux interventions pour qu'il reparte pour plusieurs années en satisfaisant tous vos besoins...<br>
+                Pas besoin d'apporter écran, souris ni clavier, nous en aurons sur place.
+                </p>
+              </article>
+
+
+              <article class="carte" data-salle="principale" data-type="conference">
+                <h4>Présentation des enjeux de compostage</h4>
+                <div class="date">9h30-9h50</div>
+                <div class="lieu">Salle principale</div>
+                <p>La <abbr title="Communauté des Communes Beaujolais Pierres Dorées">CCBPD</abbr> nous explique le pourquoi du comment du compostage des biodéchets sur notre territoire. Notamment, mieux cerner la mise en place et la vie des composteurs collectifs sur nos communes.</p>
+              </article>
+
+              <article class="carte" data-salle="principale" data-type="conference">
+                <h4>Conférence sur le compostage</h4>
+                <div class="date">10h-11h30</div>
+                <div class="lieu">Salle principale</div>
+                <p>Brunon Munda, maître composteur nous partage tout ce qu'il faut savoir pour réussir son compost dans une conférence dynamique et passionnante.</p>
+              </article>
+
+              <article class="carte" data-salle="principale" data-type="conference">
+                <h4>Du jardin au potager</h4>
+                <div class="date">11h40-12h10</div>
+                <div class="lieu">Salle principale</div>
+                <p>Le LabCECSY nous projète un extrait de la conférence réalisée à l'Académie du Climat en juin 2022 <em>Du microbiote au macrobiote</em>. La projection sera suivie d'un temps d'échange et de partage.</p>
+              </article>
+
+              <article class="carte" data-salle="principale" data-type="conference">
+                <h4>Retour d'expérience sur le compost ouvert</h4>
+                <div class="date">12h15-12h45</div>
+                <div class="lieu">Salle principale</div>
+                <p>La <abbr title="Ligue de Protection des Oiseaux">LPO</abbr> nous fait part de sa grande expérience sur le lien entre le compost ouvert et la biodiversité qui l'entoure.</p>
+              </article>
+
+              <article class="carte" data-salle="principale" data-type="accueil">
+                <h4>Mot d'introduction de l'après-midi</h4>
+                <div class="date">13h-13h15</div>
+                <div class="lieu">Salle principale</div>
+              </article>
+
+              <article class="carte" data-salle="principale" data-type="conference">
+                <h4>Tri et biodéchets</h4>
+                <div class="date">13h30-14h</div>
+                <div class="lieu">Salle principale</div>
+                <p>Que se passe-t-il après le ramassage de nos poubelles ou des bennes de la déchetterie&nbsp;? Le <abbr title="Syndicat mixte d'élimination, de traitement et de valorisation des déchets Beaujolais-Dombes">Sytraival</abbr> nous éclaire sur le sujet du tri et de la gestion des biodéchets.</p>
+              </article>
+
+              <article class="carte" data-salle="caveau" data-type="performance">
+                <h4>Théâre d'impro</h4>
+                <div class="date">14h00</div>
+                <div class="lieu">Caveau</div>
+              </article>
+
+              <article class="carte" data-salle="caveau" data-type="atelier">
+                <h4>Quiz / Fresque des Déchets</h4>
+                <div class="date">14h00-17h</div>
+                <div class="lieu">Caveau</div>
+                <p>Par sessions de 15 minutes, la Cabane à Soi propose des ateliers ludiques pour tester vos connaissances sur les déchets, saurez-vous relever le défi&nbsp;?</p>
+              </article>
+
+              <article class="carte" data-salle="caveau" data-type="atelier">
+                <h4>Déco alternatives pour noël</h4>
+                <div class="date">14h00-17h</div>
+                <div class="lieu">Caveau</div>
+                <p>Venez exprimer toute votre créativité dans cet atelier de création de décorations de noël originales. La Cabane à Soi vous accompagne pour rendre votre fête encore plus exceptionnelle.</p>
+              </article>
+
+              <article class="carte" data-salle="caveau" data-type="atelier">
+                <h4>Troc / Bourse de déco et de jouets de noël</h4>
+                <div class="date">14h00-17h</div>
+                <div class="lieu">Caveau</div>
+                <p>Venez aurpès de la Cabane à Soi chiner ou échanger vos jouets et décorations pour préparer la fête de noël.</p>
+              </article>
+
+              <article class="carte" data-salle="caveau" data-type="atelier">
+                <h4><abbr title="Do It Yourself">DIY</abbr>&nbsp;: apprendre à faire ses produits d'entretien</h4>
+                <div class="date">14h00-17h</div>
+                <div class="lieu">Caveau</div>
+                <p>L'Épicerie des Colibris vous accompagne pour la réalisation de produits d'entretien au top. Et sans emballage à jeter à la fin&nbsp;!</p>
+              </article>
+
+              <article class="carte" data-salle="caveau" data-type="atelier">
+                <h4>De nos jardins à nos potagers</h4>
+                <div class="date">14h00-17h</div>
+                <div class="lieu">Caveau</div>
+                <p>Par session de 45 minutes, venez lire, écrirer, échanger, créer du récit avec le LabCECSY</p>
+              </article>
+
+
+              <article class="carte" data-salle="principale" data-type="conference">
+                <h4>Vrac et consigne du verre</h4>
+                <div class="date">14h05-15h</div>
+                <div class="lieu">Salle principale</div>
+                <p>L'Épicerie des Colibris et la société Rebooteille nous partage leurs expériences sur la vente en vrac et la gestion des bouteilles consignées. Sous forme de table ronde avec des producteurs et distributeurs.</p>
+              </article>
+
+              <article class="carte" data-salle="principale" data-type="performance">
+                <h4>Théâtre d'impro</h4>
+                <div class="date">15h-15h15</div>
+                <div class="lieu">Salle principale</div>
+              </article>
+
+              <article class="carte" data-salle="principale" data-type="conference">
+                <h4>Les déchets du numérique</h4>
+                <div class="date">15h15-16h15</div>
+                <div class="lieu">Salle principale</div>
+                <p>Comment finissent nos smartphones, tablettes et autres ordinateurs&nbsp;? Bertrand Keller, expert en numérique responsable, lève le voile sur la gestion de la fin de vie de nos appareils connectés fétiches&nbsp;!</p>
+              </article>
+
+              <article class="carte" data-salle="principale" data-type="performance">
+                <h4>Théâtre d'impro</h4>
+                <div class="date">16h20-16h35</div>
+                <div class="lieu">Salle principale</div>
+              </article>
+
+              <article class="carte" data-salle="principale" data-type="conference">
+                <h4>Anti-gaspi alimentaire</h4>
+                <div class="date">16h40-17h30</div>
+                <div class="lieu">Salle principale</div>
+                <p>Les deux semaines précédent cette journée de clôture, plusieurs écoles de notre territoire auront effectué la pesée de déchets de cantine. Quels résultats&nbsp;? Quelles sont les bonnes pratiques&nbsp;? Les bonnes idées&nbsp;? Une table ronde collective pour échanger sur le sujet du gaspillage alimentaire et comment en sortir.</p>
+              </article>
+
+              <article class="carte" data-salle="principale" data-type="accueil">
+                <h4>Mot de clôture</h4>
+                <div class="date">17h30</div>
+                <div class="lieu">Salle principale</div>
+                <p>Le mot de clôture sera suivi d'un verre de l'amitié.</p>
+              </article>
+
+            </div>
+
+
 	    <h3>Et après...</h3>
 		 <ul>
 			 <li>Sensibilisation 0 déchet au Collège du Bois d'Oingt par Agir à Val d'Oingt</li>
