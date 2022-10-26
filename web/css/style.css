@@ -389,6 +389,7 @@ a{
   color:#115945;
   text-decoration: none;
   padding-bottom: .2rem;
+  border: 1px solid transparent;
   border-bottom: 1px dashed #115945;
 }
 a:focus, a:hover{
@@ -607,4 +608,28 @@ main article header{
   border-bottom: 1px dashed #115945;
   background: #115945;
   color:#bee6db;
+}
+
+ul.liste-visuels{
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap:wrap;
+}
+ul.liste-visuels li{
+  padding: 1em;
+  width: 100%;
+  list-style: none;
+  text-align:center;
+  border:1px dashed #004436;
+  line-height: 180%;;
+  margin: 1em;;
+}
+
+@media (min-width: 720px) {
+
+  ul.liste-visuels{
+
+    flex-wrap:nowrap;
+  }
 }
