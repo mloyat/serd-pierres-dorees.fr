@@ -18,7 +18,7 @@
           <header id="banner" role="banner">
             <img src="images/logo-serd.jpg" alt="Semaine européenne de la réduction des déchets"/>
           </header>
-          <nav role="navigation" id="main-nav">
+          <nav role="navigation" id="main-nav" aria-label="Menu">
             <ul>
               <li><a href="#presentation">Présentation</a></li>
               <li><a href="#programme">Le programme</a></li>
@@ -52,6 +52,7 @@
                   <option value="2022-11-19">19 novembre</option>
                   <option value="2022-11-22">22 novembre</option>
                   <option value="2022-11-23">23 novembre</option>
+                  <option value="2022-11-25">25 novembre</option>
                 </select></span>
                 - <span>Filtrer par commune
                 <select id="filtre-commune">
@@ -60,6 +61,7 @@
                   <option value="chamelet">Chamelet</option>
                   <option value="chessy">Chessy</option>
                   <option value="legny">Légny</option>
+                  <option value="marcilly">Marcilly d'Azergues</option>
                   <option value="morance">Morancé</option>
                   <option value="pommiers">Pommiers</option>
                   <option value="theize">Theizé</option>
@@ -67,11 +69,25 @@
                 </select></span>
               </div>
 
+              <article class="carte" data-date="" data-commune="">
+                <h4>Pesée des déchets de cantine</h4>
+                <div class="date">à partir du 7 novembre</div>
+                <div class="lieu">Les écoles des communes du territoire</div>
+                <p>Plusieurs communes vont effectuer la pesée des déchets de cantine sur notre territoire avec les enfants et les parents qui le souhaitent (prenez contact avec l'école de votre commune si vous souhaitez en savoir plus). Une table ronde aura lieu le 26 novembre au Domaine des Communes pour échanger sur le sujet.</p>
+              </article>
+
               <article class="carte" data-date="2022-11-15" data-commune="pommiers">
-                <h4>Conférence "Comment redonner vie aux ordinateurs&nbsp;?”</h4>
+                <h4>Conférence "Comment redonner vie aux ordinateurs&nbsp;?"</h4>
                 <div class="date">mardi 15 novembre, 19h00</div>
                 <div class="lieu">Maison des associations de Pommiers</div>
                 <p>Conférence organisée par l'association abc21 et la Commission Développement Durable et Implication Citoyenne de Pommiers.</p>
+              </article>
+
+              <article class="carte" data-date="2022-11-19" data-commune="marcilly">
+                <h4>Atelier de réparation</h4>
+                <div class="date">samedi 19 novembre matin</div>
+                <div class="lieu">Marcilly</div>
+                <p>Avec Graines d'Actions</p>
               </article>
 
               <article class="carte" data-date="2022-11-19" data-commune="valdoingt">
@@ -85,14 +101,12 @@
                 <h4><abbr title="Système d'Échange Local">SEL</abbr>, Troc, atelier <abbr title="Do It Yourself, faire soi-même">DIY</abbr></h4>
                 <div class="date">samedi 19 novembre, à partir de 9h</div>
                 <div class="lieu">Salle des fêtes de Morancé</div>
-                <p>
-                  <ul>
-                    <li>Fresque du Climat Junior&nbsp;: 10/14 ans (9h durée 2h)</li>
-                    <li>Ateliers 0 déchets&nbsp;: création de produits solides pour la maison et cosmétiques (adultes et plus de 12 ans - participation libre)</li>
-                    <li>Présentation du SEL des Vignes (Système d’Echanges Local)</li>
-                    <li>Trocs/Dons vêtements adultes-enfants</li>
-                  </ul>
-                </p>
+                <ul>
+                  <li>Fresque du Climat Junior&nbsp;: 10/14 ans (9h durée 2h)</li>
+                  <li>Ateliers 0 déchets&nbsp;: création de produits solides pour la maison et cosmétiques (adultes et plus de 12 ans - participation libre)</li>
+                  <li>Présentation du SEL des Vignes (Système d'Échanges Local)</li>
+                  <li>Trocs/Dons vêtements adultes-enfants</li>
+                </ul>
               </article>
 
 
@@ -107,7 +121,7 @@
                 <h4>Sensibilisation/Actions auprès des citoyens et des enfants</h4>
                 <div class="date">samedi 19 novembre, 14h-17h</div>
                 <div class="lieu">Salle des Fêtes de Bagnols</div>
-                <p>Création de déco de Noël avec récup, ramassage déchets, Quizz et infos sur les déchets, leur traitement et impact sur l'environnement, contes pour les enfants Gouter offert aux enfants. Organisé par la Commission <abbr title="Développement Durable">DD</abbr> de Bagnols, en partenariat avec l'école et le Sou des Ecoles</p>
+                <p>Création de déco de Noël avec récup, ramassage déchets, Quizz et infos sur les déchets, leur traitement et impact sur l'environnement, contes pour les enfants Gouter offert aux enfants. Organisé par la Commission <abbr title="Développement Durable">DD</abbr> de Bagnols, en partenariat avec l'école et le Sou des Écoles</p>
               </article>
 
 
@@ -127,16 +141,15 @@
 
               <article class="carte" data-date="2022-11-23" data-commune="cogny">
                 <h4>Atelier de cuisine intuitive anti-gaspi</h4>
-                <div class="date">mercredi 23 novembre, 15h-17h</div>
-                <div class="lieu">Salle Cherpin, Theizé</div>
-                <p>Retrouvez Mathilde, en partenariat avec L’Epicerie des Colibris, pour s'ouvrir aux possibles et imaginer de nouvelles manières de préparer ses repas sans déchet !
-                  <ul>
-                    <li>Participation libre</li>
-                    <li>Adultes et enfants</li>
-                    <li>10 participants <abbr title="maximum">max.</abbr></li>
-                    <li>Sur inscription</li>
-                  </ul>
-                </p>
+                <div class="date">mercredi 23 novembre, 14h-17h</div>
+                <div class="lieu">Cogny</div>
+                <p>Retrouvez Mathilde, en partenariat avec L’Épicerie des Colibris, pour s'ouvrir aux possibles et imaginer de nouvelles manières de préparer ses repas sans déchet !</p>
+                <ul>
+                  <li>Participation libre</li>
+                  <li>Adultes et enfants</li>
+                  <li>10 participants <abbr title="maximum">max.</abbr></li>
+                  <li>Sur inscription</li>
+                </ul>
               </article>
 
               <article class="carte" data-date="2022-11-23" data-commune="legny,chamelet">
@@ -153,12 +166,26 @@
                 <p>Présentation de son fonctionnement et intérêt. Organisé par l'association abc21 et la Commission <abbr title="Développement Durable">DD</abbr>.</p>
               </article>
 
+              <article class="carte" data-date="2022-11-25" data-commune="marcilly">
+                <h4>Broyage</h4>
+                <div class="date">vendredi 25 novembre après-midi</div>
+                <div class="lieu">Marcilly</div>
+                <p>Avec Graines d'Actions</p>
+              </article>
+
+              <article class="carte" data-date="2022-11-26" data-commune="marcilly">
+                <h4>Broyage</h4>
+                <div class="date">vendredi 26 novembre matin</div>
+                <div class="lieu">Marcilly</div>
+                <p>Avec Graines d'Actions</p>
+              </article>
+
             </div>
 
 
-            <h3>Journée de clôture le 26 novembre</h3>
-            <p>La journée de clôture de notre <abbr title="Semaine Européenne de la Réduction des Déchets">SERD</abbr> aura lieu toute la journée le 26 novembre au <a href="https://www.abcsalles.com/lieu/domaine-des-communes">Domaine des Communes</a> à Graves-sur-Anse. </p>
-            <p>Ouverte à tous et gratuite, c'est l'occasion pour venir en famille découvrir les actions et acteurs du territoire engagés dans la rélfexion sur la réduction des déchets.</p>
+            <h3>Journée de clôture le 26 novembre - Fête des Déchets</h3>
+            <p>La journée de clôture de notre <abbr title="Semaine Européenne de la Réduction des Déchets">SERD</abbr> aura lieu toute la journée le 26 novembre au <a href="https://www.abcsalles.com/lieu/domaine-des-communes">Domaine des Communes</a> à Graves-sur-Anse. Nous souhaitons qu'elle soit une véritable Fête des Déchets !</p>
+            <p>Ouverte à tous et gratuite, c'est l'occasion pour venir en famille découvrir les actions et acteurs du territoire engagés dans la réflexion sur la réduction des déchets.</p>
             <p>Une restauration sera disponible par un <span lang="en">Food Truck</span></p>
 
             <div class="cartes">
@@ -197,12 +224,12 @@
               </article>
 
               <article class="carte" data-salle="exterieur" data-type="atelier">
-                <h4>Fabrication de composteur</h4>
+                <h4>Fabrication de composteurs</h4>
                 <div class="date">9h-11h</div>
                 <div class="lieu">Extérieur</div>
                 <p>L'association abc21 de Pommiers vous accompagne pour construire votre propre composteur en bois local (fourni). Apportez votre visseuse bien chargée et laissez-vous guider...</p>
-                <p>Sur réservation auprès d'abc21 (<a href="mailto:abc21.pommiers@gmail.com&subject=Réservation composteur SERD">abc21.pommiers@gmail.com</a>), places limitées.</p>
-                <p>Prix du composteur 40/60€, subvention possible par la <abbr title="Communauté de Communes Beaujolais Pierres Dorées">CCBPD</abbr></p>
+                <p>Sur réservation auprès d'abc21 (<a href="mailto:abc21.pommiers@gmail.com&subject=Réservation composteur SERD">abc21.pommiers@gmail.com</a>), places limitées. Précisez la taille souhaitée.</p>
+                <p>Prix du composteur 40€ (125 litres) / 60€ (441 litres), subvention possible par la <abbr title="Communauté de Communes Beaujolais Pierres Dorées">CCBPD</abbr></p>
               </article>
 
               <article class="carte" data-salle="exterieur" data-type="animaux">
@@ -277,14 +304,14 @@
                 <h4>Conférence sur le compostage</h4>
                 <div class="date">10h-11h30</div>
                 <div class="lieu">Salle principale</div>
-                <p>Brunon Munda, maître composteur nous partage tout ce qu'il faut savoir pour réussir son compost dans une conférence dynamique et passionnante.</p>
+                <p>Bruno Munda, maître composteur nous partage tout ce qu'il faut savoir pour réussir son compost dans une conférence dynamique et passionnante.</p>
               </article>
 
               <article class="carte" data-salle="principale" data-type="conference">
                 <h4>Du jardin au potager</h4>
                 <div class="date">11h40-12h10</div>
                 <div class="lieu">Salle principale</div>
-                <p>Le LabCECSY nous projète un extrait de la conférence réalisée à l'Académie du Climat en juin 2022 <em>Du microbiote au macrobiote</em>. La projection sera suivie d'un temps d'échange et de partage.</p>
+                <p>Le LabCECSY nous projette un extrait de la conférence réalisée à l'Académie du Climat en juin 2022 <em>Du microbiote au macrobiote</em>. La projection sera suivie d'un temps d'échange et de partage.</p>
               </article>
 
               <article class="carte" data-salle="principale" data-type="conference">
@@ -308,7 +335,7 @@
               </article>
 
               <article class="carte" data-salle="caveau" data-type="performance">
-                <h4>Théâre d'impro</h4>
+                <h4>Théâtre d'impro</h4>
                 <div class="date">14h00</div>
                 <div class="lieu">Caveau</div>
               </article>
@@ -321,7 +348,7 @@
               </article>
 
               <article class="carte" data-salle="caveau" data-type="atelier">
-                <h4>Déco alternatives pour noël</h4>
+                <h4>Déco alternative pour noël</h4>
                 <div class="date">14h00-17h</div>
                 <div class="lieu">Caveau</div>
                 <p>Venez exprimer toute votre créativité dans cet atelier de création de décorations de noël originales. La Cabane à Soi vous accompagne pour rendre votre fête encore plus exceptionnelle.</p>
@@ -331,7 +358,7 @@
                 <h4>Troc / Bourse de déco et de jouets de noël</h4>
                 <div class="date">14h00-17h</div>
                 <div class="lieu">Caveau</div>
-                <p>Venez aurpès de la Cabane à Soi chiner ou échanger vos jouets et décorations pour préparer la fête de noël.</p>
+                <p>Venez auprès de la Cabane à Soi chiner ou échanger vos jouets et décorations pour préparer la fête de noël.</p>
               </article>
 
               <article class="carte" data-salle="caveau" data-type="atelier">
@@ -345,7 +372,7 @@
                 <h4>De nos jardins à nos potagers</h4>
                 <div class="date">14h00-17h</div>
                 <div class="lieu">Caveau</div>
-                <p>Par session de 45 minutes, venez lire, écrirer, échanger, créer du récit avec le LabCECSY</p>
+                <p>Par session de 45 minutes, venez lire, écrire, échanger, créer du récit avec le LabCECSY</p>
               </article>
 
 
@@ -353,7 +380,7 @@
                 <h4>Vrac et consigne du verre</h4>
                 <div class="date">14h05-15h</div>
                 <div class="lieu">Salle principale</div>
-                <p>L'Épicerie des Colibris et la société Rebooteille nous partage leurs expériences sur la vente en vrac et la gestion des bouteilles consignées. Sous forme de table ronde avec des producteurs et distributeurs.</p>
+                <p>L'Épicerie des Colibris, Rebooteille et Click & Poulette nous partagent leurs expériences sur la vente en vrac, la gestion des bouteilles consignées et la récupération des emballages. Sous forme de table ronde avec des producteurs et distributeurs.</p>
               </article>
 
               <article class="carte" data-salle="principale" data-type="performance">
@@ -379,7 +406,7 @@
                 <h4>Anti-gaspi alimentaire</h4>
                 <div class="date">16h40-17h30</div>
                 <div class="lieu">Salle principale</div>
-                <p>Les deux semaines précédent cette journée de clôture, plusieurs écoles de notre territoire auront effectué la pesée de déchets de cantine. Quels résultats&nbsp;? Quelles sont les bonnes pratiques&nbsp;? Les bonnes idées&nbsp;? Une table ronde collective pour échanger sur le sujet du gaspillage alimentaire et comment en sortir.</p>
+                <p>Les deux semaines précédant cette journée de clôture, plusieurs écoles de notre territoire auront effectué la pesée de déchets de cantine. Quels résultats&nbsp;? Quelles sont les bonnes pratiques&nbsp;? Les bonnes idées&nbsp;? Une table ronde collective pour échanger sur le sujet du gaspillage alimentaire et comment en sortir.</p>
               </article>
 
               <article class="carte" data-salle="principale" data-type="accueil">
@@ -404,37 +431,36 @@
             <h2>Qui organise ?</h2>
             <p>L'organisation de ces événements est <strong>collégiale</strong> ! Élus, citoyens, acteurs associatifs ou économiques le souhaitant sont invités à se joindre à l’équipe de pilotage qui se compte déjà plus d'une quinzaine de personnes de notre territoire. Nous nous retrouvons essentiellement en visio et toutes les bonnes volontés sont les bienvenues, ne serait-ce que pour quelques heures de bénévolat ;-)</p>
             <h3>Ils participent et/ou organisent déjà !</h3>
-            <p>
-              Associations / collectifs / acteurs économiques
-              <ul class="organisateurs">
-                <li>abc21</li>
-                <li>Agir Charnay Durable</li>
-                <li>Alix o Vert</li>
-                <li>Agir à Val d'Oingt</li>
-                <li>La Cabane à Soi</li>
-                <li>Demain c'est Ici et Maintenant</li>
-                <li>Écolibris de Morancé</li>
-                <li>Épicerie des Colibris</li>
-                <li>Explore & Sens</li>
-                <li>LabCECSY</li>
-                <li>Mines de Liens</li>
-                <li>Souffle d'idées</li>
-                <li>Villes et Villages Terre Durable</li>
-                <li>Chez Marcel & Madeleine Recyclerie</li>
-              </ul>
-              Acteurs institutionnels
-              <ul>
-                <li>Communauté de Communes Beaujolais Pierres Dorées</li>
-                <li>Alix</li>
-                <li>Bagnols</li>
-                <li>Chatillon</li>
-                <li>Chessy les Mines</li>
-                <li>Pommiers</li>
-                <li>Theizé</li>
-                <li>Val d'Oingt</li>
-                <li>Sytraival</li>
-              </ul>
-            </p>
+            <p>Associations / collectifs / acteurs économiques</p>
+            <ul class="organisateurs">
+              <li>abc21</li>
+              <li>Agir Charnay Durable</li>
+              <li>Alix o Vert</li>
+              <li>Agir à Val d'Oingt</li>
+              <li>La Cabane à Soi</li>
+              <li>Demain c'est Ici et Maintenant</li>
+              <li>Écolibris de Morancé</li>
+              <li>Épicerie des Colibris</li>
+              <li>Explore & Sens</li>
+              <li>Graines d'Actions</li>
+              <li>LabCECSY</li>
+              <li>Mines de Liens</li>
+              <li>Souffle d'idées</li>
+              <li>Villes et Villages Terre Durable</li>
+              <li>Chez Marcel & Madeleine Recyclerie</li>
+            </ul>
+            <p>Acteurs institutionnels</p>
+            <ul>
+              <li>Communauté de Communes Beaujolais Pierres Dorées</li>
+              <li>Alix</li>
+              <li>Bagnols</li>
+              <li>Chatillon</li>
+              <li>Chessy les Mines</li>
+              <li>Pommiers</li>
+              <li>Theizé</li>
+              <li>Val d'Oingt</li>
+              <li>Sytraival</li>
+            </ul>
           </div>
         </section>
       </main>
