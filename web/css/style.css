@@ -524,16 +524,16 @@ footer h2:after{
 #intro{
   background-color: #fff07e;
 }
-#bulletins, #print{
+#bulletins, #print, #qrcode{
   background-color: #f3e5df;
 }
-#visuels, #qrcode{
+#visuels, #audio{
   background-color: #fffbe1;
 }
 
 #qrcode img{
-max-width:90vw;
-heigh:auto;
+  max-width:90vw;
+  height:auto;
 }
 main article {
   padding-left: 2em;
